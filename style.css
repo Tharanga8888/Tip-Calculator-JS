@@ -1,0 +1,89 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 30px;
+}
+
+.container {
+  background-color: #fff;
+  max-width: 450px;
+  margin: auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+  text-align: left;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.tip-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.tip-btn {
+  flex: 1 1 30%;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 0;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.tip-btn:hover,
+.tip-btn.active {
+  background-color: #0056b3;
+}
+
+#calculateBtn {
+  margin-top: 25px;
+  width: 100%;
+  background-color: #28a745;
+  color: white;
+  font-size: 1.1em;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#calculateBtn:hover {
+  background-color: #218838;
+}
+
+.results {
+  margin-top: 30px;
+}
+
+.results p {
+  font-size: 1.3rem;
+  margin: 10px 0;
+  font-weight: bold;
+}
